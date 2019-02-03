@@ -46,7 +46,7 @@ type MyType {
 `;
 
 const resolvers = {
-  Email: GraphQLLEmail,
+  Email: GraphQLEmail,
 };
 
 export default makeExecutableSchema({ typeDefs, resolvers });
